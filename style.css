@@ -1,0 +1,46 @@
+/* 
+   Big J's Deep Dish Pizza style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit D, Skills Review
+ */
+
+/* body and page container */
+.container {
+    background-color: black;
+    text-align: center;
+ }
+ 
+ /* headings */
+ header {
+    background-color: black;
+ }
+ header div {
+    color: white;
+ }
+ header p {
+    color: black;
+    background-color: white;
+ }
+ header p.phone {
+    color: white;
+    background-color: black;
+ }
+ 
+ /* main content */
+ article {
+    color: black;
+    background-color: white;
+    text-align: left;
+ }
+ h3 {
+    color: red;
+ }
+ 
+ /* footer section */
+ footer {
+    background-color: white;
+    color: black;
+ }
