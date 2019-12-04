@@ -26,14 +26,21 @@
  }
  header div {
     color: white;
+    width: 99%;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: red;
  }
  header p {
     color: black;
     background-color: white;
+    border: 3px solid;
  }
  header p.phone {
     color: white;
     background-color: black;
+    width: 50%;
+    border-style: solid red 3px;
  }
  
  /* main content */
@@ -50,4 +57,9 @@
  footer {
     background-color: white;
     color: black;
+ }
+
+ /* CREATED STYLE RULE */
+ .p , .award {
+     width: 25%;
  }
