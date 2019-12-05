@@ -38,6 +38,12 @@
     max-width: 640px;
     position: fixed;
  }
+
+ .container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+
  header div {
     color: white;
     width: 99%;
