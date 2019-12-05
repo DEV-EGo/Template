@@ -15,6 +15,13 @@
      margin: 0;
  }
 
+body{
+    background-image: url(./slice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* body and page container */
 .container {
     background-color: black;
