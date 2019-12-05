@@ -24,25 +24,28 @@
     margin-bottom:0;
     margin-left: auto;
     margin-right: auto;
+    position: relative 11em;
+    margin: 0 auto;
+    z-index: -1;
  }
  
  /* headings */
  header {
+     overflow: hidden;
     background-color: black;
     width: 100%;
     max-width: 640px;
+    z-index: -1;
  }
 
  .fixed-header{ 
+     overflow: hidden;
     width: 100%;
     max-width: 640px;
     position: fixed;
  }
 
- .container{
-    width: 80%;
-    margin: 0 auto; /* Center the DIV horizontally */
-}
+
 
  header div {
     color: white;
