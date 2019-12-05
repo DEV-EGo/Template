@@ -29,6 +29,14 @@
  /* headings */
  header {
     background-color: black;
+    width: 100%;
+    max-width: 640px;
+ }
+
+ .fixed-header{ 
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
  }
  header div {
     color: white;
@@ -50,8 +58,12 @@
     margin-left: auto;
     margin-right: auto;
     padding: 6px;
-
+    float:left;
  }
+.clearfix {
+    overflow: auto;
+}
+
  header p.phone {
     color: white;
     background-color: black;
@@ -63,8 +75,15 @@
     margin-bottom: 0.4em;
     margin-left: auto;
     margin-right: auto;
+    float: clear;
  }
  
+  /* CREATED STYLE RULE */
+  header p.award {
+    float: right;
+    width: 25%;
+}
+
  /* main content */
  article {
     color: black;
@@ -83,6 +102,11 @@
  article, .myo{
      margin-left: 1em;
  }
+
+ /* style targeting LIST inside article */
+ .list article{
+     margin-left: 2em;
+ }
  h3 {
     color: red;
     padding-top: 1em;
@@ -100,7 +124,3 @@
     padding: 0.5em;
  }
 
- /* CREATED STYLE RULE */
- .p , .award {
-     width: 25%;
- }
