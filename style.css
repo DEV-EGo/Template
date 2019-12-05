@@ -58,6 +58,7 @@
     margin-right: auto;
  }
  header p {
+     width: 30%;
     color: black;
     background-color: white;
     border: 3px solid;
@@ -68,9 +69,6 @@
     padding: 6px;
     float:left;
  }
-/* .clearfix {
-    overflow: auto;
-} */
 
  header p.phone {
     color: white;
@@ -81,15 +79,14 @@
     border-color: red;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
-    float: clear;
  }
  
   /* CREATED STYLE RULE */
   header p.award {
     float: right;
-    width: 25%;
+    width: 30%;
 }
 
  /* main content */
@@ -109,6 +106,7 @@
  /* style targeting MYO inside article */
  article, .myo{
      margin-left: 1em;
+     margin:auto;
  }
 
  /* style targeting LIST inside article */
