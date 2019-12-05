@@ -24,7 +24,7 @@ body{
 
 /* body and page container */
 .container {
-    background-color: black;
+    background-color: #000000a8;
     text-align: center;
     max-width: 640px;
     margin-top: 0;
@@ -39,7 +39,7 @@ body{
  /* headings */
  header {
      overflow: hidden;
-    background-color: black;
+    background-color: #000000a8;
     width: 100%;
     max-width: 640px;
     z-index: -1;
