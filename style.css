@@ -36,6 +36,10 @@
     border-width: 3px;
     border-style: dotted;
     border-color: red;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    margin-left: auto;
+    margin-right: auto;
  }
  header p {
     color: black;
@@ -45,6 +49,8 @@
     margin-bottom:0;
     margin-left: auto;
     margin-right: auto;
+    padding: 6px;
+
  }
  header p.phone {
     color: white;
@@ -53,6 +59,10 @@
     border-width: 3px;
     border-style: solid;
     border-color: red;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
  }
  
  /* main content */
@@ -61,16 +71,33 @@
     background-color: white;
     text-align: left;
     width: 65%;
+    padding-top: 5em;
+    padding: 1em;
+ }
+/* style targeting P inside article */
+ article .p{
+     margin-bottom: 0.5em;
+ }
+
+ /* style targeting MYO inside article */
+ article, .myo{
+     margin-left: 1em;
  }
  h3 {
     color: red;
+    padding-top: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.4em;
  }
  
  /* footer section */
  footer {
     background-color: white;
     color: black;
-    border-style: solid black;
+    border-style: solid;
+    border-color: black;
+    padding: 0.5em;
  }
 
  /* CREATED STYLE RULE */
