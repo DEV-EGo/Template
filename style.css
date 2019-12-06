@@ -58,7 +58,7 @@ body{
     width: 99%;
     border-width: 3px;
     border-style: dotted;
-    border-color: red;
+    border-color: #a9a130;
     margin-top: 0;
     margin-bottom: 0.6em;
     margin-left: auto;
@@ -83,7 +83,7 @@ body{
     width: 50%;
     border-width: 3px;
     border-style: solid;
-    border-color: red;
+    border-color: #b7901c;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
     margin-left: 25%;
@@ -121,7 +121,7 @@ body{
      margin-left: 2em;
  }
  h3 {
-    color: red;
+    color: black;
     padding-top: 1em;
     padding-left: 0;
     padding-right: 0;
