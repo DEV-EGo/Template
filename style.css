@@ -48,7 +48,7 @@ body{
  .fixed-header{ 
      overflow: hidden;
     width: 100%;
-    max-width: 640px;
+    max-width: 631px;
  }
 
 
@@ -99,7 +99,7 @@ body{
  /* main content */
  article {
     color: black;
-    background-color: white;
+    background-color: #9fa541d9;
     text-align: left;
     width: 65%;
     padding-top: 5em;
@@ -130,7 +130,7 @@ body{
  
  /* footer section */
  footer {
-    background-color: white;
+    background-color: #89923cfa;
     color: black;
     border-style: solid;
     border-color: black;
